@@ -1,0 +1,59 @@
+.unorderedlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lavender;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:rgb(201, 201, 249);
+  }
+
+  .mainbody {
+    top: 70px;
+    bottom: 100px;
+    left: 10px;
+    right: 10px;
+    font-size:large;
+    color:lightslategrey;
+  }
+
+  .footer {
+    bottom: 5px;
+    height: 25px;
+    left: 5px;
+    right: 5px;
+    font-size: 15px;
+    color:black;
+    position:fixed;
+    text-align: center;
+  }
+
+  .header {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+
+  }
+
+.graph{
+  top:300px
+}
+
+.caption {
+  text-align: center;
+  font-size: larger;
+}
